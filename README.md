@@ -24,7 +24,7 @@ api文档：
 		6. bind:rightScrollToBottom :右边滚动到底事件
 		7. bind:bindscrolltolower : 右边滚动到顶事件
     
-  说明：components/ScrollBox是滚动联动的插件，pages/scroll是demo 里面也有相关的说明
+  说明：components/ScrollBox是滚动联动的插件，pages/scroll是demo 里面也有相关的说明，一定要注意传入的数据格式！！！！参考 utils/data.js文件。
 
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144608.gif)
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144639.png) 
