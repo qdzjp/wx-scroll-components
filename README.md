@@ -4,4 +4,4 @@
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144608.gif)
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144639.png) 
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144646.png) 
-<img src="https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144608.gif" width="375" />
+
