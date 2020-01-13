@@ -25,8 +25,11 @@ api文档：
 		7. bind:bindscrolltolower : 右边滚动到顶事件
     
   说明：
+  
      1.  components/ScrollBox是滚动联动的插件，pages/scroll是demo 里面也有相关的说明，demo中的数据是引入的静态文件（utils/data.js），一定要注意传入的数据格式！！！！参考 utils/data.js文件。
-     2.  我的图片来自京东到家，如果图片不显示，可能是人家已经删掉，将图片替换掉即可。
+     
+     2.  我的图片来自京东到家，如果图片不显示，可能是人家已经删掉，将图片替换掉即可，第一张图是gif格式的。
+     
 
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144608.gif)
 ![image](https://github.com/qdzjp/wx-scroll-components/blob/master/static/20200113144639.png) 
