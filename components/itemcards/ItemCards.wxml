@@ -1,0 +1,19 @@
+<!--components/childpages/storeinformation/itemcards/ItemCards.wxml-->
+<view class="itemcards">
+	<view class="itemcards-box">
+		<view class="itemcards-left">
+			<image class="itemcards-left-img" mode="widthFix" src="{{itemData.imgUrl}}" ></image>
+		</view>
+		<view class="itemcards-right">
+			<view class="itemcards-right-title">{{itemData.skuName}}</view>
+			<view class="itemcards-right-gift">赠品，先拍2份,赠品，先拍2份,赠品，先拍2份,赠品，先拍2份,赠品，先拍2份</view>
+			<view class="itemcards-right-sale-box">
+				<view class="itemcards-right-sale-num">271</view>
+				<view class="itemcards-right-sale-eveat">{{itemData.highOpinion}}</view>
+			</view>
+			<view class="itemcards-right-sale-discount">直降2.7折</view>
+			<view class="itemcards-right-sale-price">{{itemData.realTimePrice}}</view>
+			<view class="itemcards-right-sale-origin-price">{{itemData.basicPrice}}</view>
+		</view>
+	</view>
+</view>

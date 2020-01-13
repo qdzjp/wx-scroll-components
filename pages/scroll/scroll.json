@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+	  "scroll-com":"/components/ScrollBox/ScrollBox",
+	  "item-card-com":"/components/itemcards/ItemCards"
+  }
+}

@@ -1,0 +1,22 @@
+<!--components/ScrollBox.wxml-->
+<view>
+	<view class="scroll-warp">
+		<view class="scroll-box" style="height: {{warpHeight}};">
+			<scroll-view class="scroll-left" scroll-y="true" scroll-with-animation  scroll-top="{{leftScrollHeight}}" style="width: {{leftBarWidth}};" bindscroll="leftContentScroll" bindscrolltoupper="leftScrollToTop" bindscrolltolower="leftScrollToBottom">
+				<view id="left_item_{{index}}" style="{{clickIndex===index ? clickedClass:''}}" class="unclicked scroll-left-item" wx:for="{{leftDataArr}}" wx:key="index" data-index="{{index}}" data-item="{{item.barName}}" bindtap="leftClick">{{item.barName}}</view>
+			</scroll-view>
+			<scroll-view class="scroll-right" id="scroll-right" scroll-y="true" scroll-into-view="{{scrollId}}" scroll-with-animation 
+				bindscroll="rightContentScroll" 
+				bindscrolltoupper="rightScrollToTop" 
+				bindscrolltolower="rightScrollToBottom" 
+				style="width: {{rightContentWidth}};">
+				<view  class="scroll-right-item" wx:for="{{leftDataArr}}" id="item_{{index}}" wx:key="index" data-index="{{index}}">
+					<view class="scroll-right-item-title">{{item.barName}}</view>
+					<slot  name="{{index}}"></slot>
+				</view>
+				<!-- <slot name="rightContent"></slot> -->
+			</scroll-view>
+			
+		</view>
+	</view>
+</view>

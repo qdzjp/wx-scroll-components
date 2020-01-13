@@ -1,0 +1,99 @@
+/* components/childpages/storeinformation/itemcards/ItemCards.wxss */
+.itemcards{
+	border-bottom: 1px solid #e8e8e8;
+	padding: 30rpx 0;
+}
+.itemcards-box{
+	display: flex;
+	justify-content: space-between;
+}
+.itemcards-left{
+	width: 168rpx;
+}
+.itemcards-left-img{
+	width: 160rpx;
+	height: 160rpx;
+	margin-left: 4rpx;
+	border-radius: 10rpx;
+}
+.itemcards-right{
+	width: 524rpx;
+	padding-left: 20rpx;
+	box-sizing: border-box;
+	position: relative;
+}
+.itemcards-right-sale-box{
+	display: flex;
+	margin-top: 5rpx;
+}
+.itemcards-right-title{
+	height: 72rpx;
+	width: 348rpx;
+	font-size: 29rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	line-height: 35rpx;
+	font-weight: bold;
+}
+.itemcards-right-gift{
+	font-size: 22rpx;
+	color: #666666;
+	margin-top: 12rpx;
+	width: 348rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.itemcards-right-sale-num, .itemcards-right-sale-eveat{
+	font-size: 22rpx;
+	color: #666666;
+}
+.itemcards-right-sale-eveat{
+	margin-left: 15rpx;
+}
+.itemcards-right-sale-discount{
+	height:30rpx;
+	padding: 0 7rpx;
+	text-align: center;
+	line-height: 30rpx;
+	font-size: 20rpx;
+	background: linear-gradient(135deg, #ffc637 0%, #ff9733 100%);
+	border-radius: 7rpx 0 7rpx 0;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15rpx;
+}
+.itemcards-right-sale-discount.seckill{
+	background: linear-gradient(135deg, rgb(255, 125, 125) 0%, rgb(255, 81, 56) 100%);
+}
+.itemcards-right-sale-discount.desct{
+	background: linear-gradient(135deg, rgb(85, 216, 94) 0%, rgb(72, 193, 81) 100%);
+}
+.itemcards-right-sale-price{
+	font-size: 30rpx;
+	color: #ff1e19;
+	margin-top: 9rpx;
+	font-weight: bold;
+}
+.itemcards-right-sale-origin-price{
+	text-decoration: line-through;
+	font-size: 19rpx;
+	color: #999999;
+}
+.addCarts{
+	width: 100%;
+	height: 100%;
+	margin: 0 5rpx 5rpx 0;
+}
+.addCarts-box{
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	right: 10rpx;
+	bottom: 15rpx;
+	border-radius: 50%;
+	background: #00c725;
+}

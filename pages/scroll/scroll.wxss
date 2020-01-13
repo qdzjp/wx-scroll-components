@@ -1,0 +1,11 @@
+/* pages/scroll/scroll.wxss */
+/*  */
+.inner-box{
+	height: 100rpx;
+	width: 100rpx;
+	border: 1rpx solid #eeeeee;
+	color: red;
+}
+.unClickedClass{
+	color:#54D860!important;
+}
